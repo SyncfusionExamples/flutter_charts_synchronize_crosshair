@@ -1,0 +1,10 @@
+^C:\CROSSHAIRSYNC\KB\SYNCHRONIZED_CROSSHAIR_FLUTTER_CHART\BUILD\WINDOWS\X64\CMAKEFILES\A71C848EB05F9B57ACF2149220A9EEAD\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\CROSSHAIRSYNC\KB\SYNCHRONIZED_CROSSHAIR_FLUTTER_CHART\BUILD\WINDOWS\X64\CMAKEFILES\A71C848EB05F9B57ACF2149220A9EEAD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Crosshairsync/KB/synchronized_crosshair_flutter_chart/windows -BC:/Crosshairsync/KB/synchronized_crosshair_flutter_chart/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Crosshairsync/KB/synchronized_crosshair_flutter_chart/build/windows/x64/synchronizedcrosshair.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
