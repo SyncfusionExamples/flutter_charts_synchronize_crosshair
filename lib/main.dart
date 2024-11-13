@@ -93,10 +93,6 @@ class FirstChartState extends State<FirstChart> {
   void initState() {
     super.initState();
     _chartData = _getChartData();
-    _crosshair1 = CrosshairBehavior(
-      enable: true,
-      activationMode: ActivationMode.singleTap,
-    );
   }
 
   void show(Offset position) {
@@ -165,10 +161,6 @@ class SecondChartState extends State<SecondChart> {
   void initState() {
     super.initState();
     _chartData = _getChartData();
-    _crosshair2 = CrosshairBehavior(
-      enable: true,
-      activationMode: ActivationMode.singleTap,
-    );
   }
 
   void show(Offset position) {
@@ -212,6 +204,7 @@ class SecondChartState extends State<SecondChart> {
 
   @override
   void dispose() {
+    _chartData!.clear();
     _secondChartController = null;
     super.dispose();
   }

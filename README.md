@@ -1,4 +1,4 @@
-# How to synchronize crosshair in multiple Flutter SfCartesianChart
+# How to synchronize crosshair in multiple Flutter SfCartesianChart?
  
 This repository contains a sample to synchronize crosshair in multiple cartesian charts on a [Syncfusion Flutter Chart](https://help.syncfusion.com/flutter/cartesian-charts/getting-started) widget.
  
@@ -7,7 +7,7 @@ Please refer the KB through this [link](https://support.syncfusion.com/agent/kb/
 ## Syncfusion controls:
  
 This project used the following Syncfusion widget(s):
-* [SfCircularChart](https://www.syncfusion.com/flutter-widgets/flutter-charts)
+* [SfCartesianChart](https://www.syncfusion.com/flutter-widgets/flutter-charts)
  
 ## Supported platforms
  
